@@ -1,0 +1,8 @@
+.syarat-ketentuan-page .syarat-ketentuan {
+  padding-top: 150px;
+  background-color: var(--primary-color);
+}
+
+.syarat-ketentuan-page .syarat-ketentuan p {
+  line-height: 2;
+}

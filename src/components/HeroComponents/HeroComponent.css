@@ -1,0 +1,69 @@
+:root {
+  --primary-color: #f6f8fd;
+  --secondary-color: #dc3545;
+  --color-text: #231942;
+  --navbar-color: #ffffff;
+  --navbar-color-text: #000000;
+}
+
+/* homepage */
+
+.header-box h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.header-box h1 span {
+  font-weight: 700;
+}
+
+.header-box h1 p {
+  line-height: 2;
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.header-box img {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .header-box {
+    padding-top: 8rem;
+  }
+
+  .header-box img {
+    width: 400px;
+    display: block;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .homepage .header-box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .homepage .header-box h1 {
+    font-size: 2.4rem;
+  }
+  .homepage .header-box p {
+    font-size: 14px;
+  }
+  .homepage .header-box img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .homepage .header-box h1 {
+    font-size: 2rem;
+  }
+  .homepage .header-box p {
+    font-size: 12px;
+  }
+}
+/* homepage end */

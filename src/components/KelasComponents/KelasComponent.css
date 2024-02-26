@@ -1,0 +1,44 @@
+.kelas {
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+}
+
+.kelas .row:nth-child(1) {
+  padding: 150px 0 100px 0;
+}
+
+.kelas .row:nth-child(1) h1,
+.kelas .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.kelas .row:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding-inline: 10px;
+}
+
+.kelas .row:nth-child(2) .col {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.kelas .row:nth-child(2) img {
+  width: 100%;
+  height: 250px;
+}
+
+.kelas .row:nth-child(2) .star i {
+  color: gold;
+}
+
+.kelas .row:nth-child(2) h5 {
+  color: var(--color-text);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.kelas .row:nth-child(3) {
+  padding-top: 100px;
+}
